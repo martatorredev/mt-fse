@@ -12,3 +12,36 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: mt-fse
 Tags: blog, portfolio, full-site-editing, block-themes, dark
 */
+
+.wp-block-group.alignfull {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+.hero-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4rem;
+	padding: 6rem 4rem;
+	min-height: 60vh;
+}
+/* Layout */
+.wp-site-blocks {
+	padding: 0 !important;
+}
+
+.wp-block-group.alignfull {
+	width: 100% !important;
+	max-width: 100% !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.wp-block-group.alignfull > .wp-block-group__inner-container,
+.wp-block-group.alignfull > * {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}

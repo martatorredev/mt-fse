@@ -2,6 +2,10 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
 	"settings": {
+		"layout": {
+			"contentSize": "1200px",
+			"wideSize": "1400px"
+		},
 		"color": {
 			"palette": [
 				{
@@ -28,9 +32,22 @@
 				{ "slug": "large", "size": "1.5rem", "name": "Large" },
 				{ "slug": "x-large", "size": "2.5rem", "name": "X Large" }
 			]
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
 		}
 	},
 	"styles": {
+		"spacing": {
+			"padding": {
+				"top": "0px",
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px"
+			}
+		},
+		"css": ".wp-site-blocks { padding: 0 !important; padding-top: 0 !important; }",
 		"color": {
 			"background": "var(--wp--preset--color--primary)",
 			"text": "var(--wp--preset--color--white)"

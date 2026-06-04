@@ -1,27 +1,27 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"align":"full","style":{"color":{"background":"var(--wp--preset--color--primary)"},"spacing":{"padding":{"top":"4rem","bottom":"4rem","left":"2rem","right":"2rem"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center","columnGap":"4rem"}} -->
-<div class="wp-block-group alignfull">
+<!-- wp:group {"backgroundColor":"primary","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem","left":"2rem","right":"2rem"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center","alignItems":"center","columnGap":"4rem"}} -->
+<div class="wp-block-group has-primary-background-color has-background">
 
-	<!-- wp:image {"width":320,"height":320,"style":{"border":{"radius":"12px"}}} -->
-	<figure class="wp-block-image"><img src="" alt="" style="border-radius:12px;width:320px;height:320px;object-fit:cover"/></figure>
+	<!-- wp:image {"width":280,"height":280,"style":{"border":{"radius":"12px"}}} -->
+	<figure class="wp-block-image"><img src="/wp-content/themes/mt-fse/assets/images/hero-placeholder.jpg" alt="Marta Torre" style="border-radius:12px;width:280px;height:280px;object-fit:cover"/></figure>
 	<!-- /wp:image -->
 
-	<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+	<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
 	<div class="wp-block-group">
 
-		<!-- wp:heading {"level":1,"style":{"typography":{"fontWeight":"800"}}} -->
-		<h1 class="wp-block-heading">MARTA TORRE<br><span style="color:var(--wp--preset--color--accent)">WEB DEVELOPER</span></h1>
+		<!-- wp:heading {"level":1,"style":{"typography":{"fontWeight":"800","textTransform":"uppercase"}}} -->
+		<h1 class="wp-block-heading">Marta Torre<br><span style="color:var(--wp--preset--color--accent)">Web Developer</span></h1>
 		<!-- /wp:heading -->
 
-		<!-- wp:paragraph -->
-		<p>A little subtitle that highlights your skills</p>
+		<!-- wp:paragraph {"textColor":"white"} -->
+		<p class="has-white-color has-text-color">A little subtitle that highlights your skills</p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
-			<!-- wp:button {"style":{"color":{"background":"var(--wp--preset--color--accent)","text":"#0d1b4b"},"border":{"radius":"4px"}}} -->
-			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Contact me!</a></div>
+			<!-- wp:button {"backgroundColor":"accent","textColor":"primary","style":{"border":{"radius":"4px"}}} -->
+			<div class="wp-block-button"><a class="wp-block-button__link has-primary-color has-accent-background-color has-text-color has-background wp-element-button">Contact me!</a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->

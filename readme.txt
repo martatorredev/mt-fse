@@ -18,3 +18,5 @@ MT FSE is a block theme built with Full Site Editing. Designed for web developer
 
 == Resources ==
 * Screenshot image: own work, licensed under CC0
+* hero-placeholder.jpg, Copyright ThisisEngineering, CC0
+  https://unsplash.com/photos/64YrPKiguAE
