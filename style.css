@@ -13,3 +13,20 @@ Text Domain: mt-fse
 Tags: blog, portfolio, full-site-editing, block-themes, dark
 */
 
+.hero-section {
+	min-height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wp-site-blocks {
+	max-width: 100% !important;
+	padding: 0 !important;
+}
+
+.hero-section {
+	min-height: 60vh;
+	width: 100% !important;
+	max-width: 100% !important;
+	box-sizing: border-box;
+}
